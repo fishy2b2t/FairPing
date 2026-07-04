@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fairping",
+  "version": "${version}",
+  "name": "FairPing",
+  "description": "Adds real network delay at the packet level so high-ping and low-ping players compete on equal footing.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.fairping.client.FairPingClient"
+    ]
+  },
+  "mixins": [
+    "fairping.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": ">=1.21 <1.22"
+  }
+}
