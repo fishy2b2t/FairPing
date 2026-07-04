@@ -2,8 +2,6 @@
 
 Fabric mod for Minecraft 1.21.11 that artificially adds delay to your connection so your ping matches everyone else's on the server. Useful for practice servers where you want to simulate a specific ping without actually having it.
 
-No telemetry, no accounts, no network requests. Just packet timing.
-
 ---
 
 ## Commands
